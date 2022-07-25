@@ -1,11 +1,8 @@
-//
-//  main.swift
-//  helloSwift
-//
-//  Created by 이현호 on 2022/07/25.
-//
-
 import Foundation
 
-print("Hello, World!")
+let arr = readLine()!.split(separator: " ").map{Int(String($0))!}
 
+let a = arr[0]
+let b = arr[1]
+
+print(a+b)
