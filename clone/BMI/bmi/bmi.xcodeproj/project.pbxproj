@@ -13,6 +13,8 @@
 		C17EE42E28AB80600057CBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17EE42C28AB80600057CBF5 /* Main.storyboard */; };
 		C17EE43028AB80610057CBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17EE42F28AB80610057CBF5 /* Assets.xcassets */; };
 		C17EE43328AB80610057CBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17EE43128AB80610057CBF5 /* LaunchScreen.storyboard */; };
+		C17EE43B28AB897F0057CBF5 /* bmiImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C17EE43A28AB897F0057CBF5 /* bmiImage.jpeg */; };
+		C17EE43D28AB8A190057CBF5 /* bmiImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = C17EE43C28AB8A190057CBF5 /* bmiImage2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C17EE42F28AB80610057CBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C17EE43228AB80610057CBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C17EE43428AB80610057CBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17EE43A28AB897F0057CBF5 /* bmiImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmiImage.jpeg; sourceTree = "<group>"; };
+		C17EE43C28AB8A190057CBF5 /* bmiImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmiImage2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				C17EE42C28AB80600057CBF5 /* Main.storyboard */,
 				C17EE42F28AB80610057CBF5 /* Assets.xcassets */,
 				C17EE43128AB80610057CBF5 /* LaunchScreen.storyboard */,
+				C17EE43C28AB8A190057CBF5 /* bmiImage2.png */,
+				C17EE43A28AB897F0057CBF5 /* bmiImage.jpeg */,
 				C17EE43428AB80610057CBF5 /* Info.plist */,
 			);
 			path = bmi;
@@ -125,9 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17EE43B28AB897F0057CBF5 /* bmiImage.jpeg in Resources */,
 				C17EE43328AB80610057CBF5 /* LaunchScreen.storyboard in Resources */,
 				C17EE43028AB80610057CBF5 /* Assets.xcassets in Resources */,
 				C17EE42E28AB80600057CBF5 /* Main.storyboard in Resources */,
+				C17EE43D28AB8A190057CBF5 /* bmiImage2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
