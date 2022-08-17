@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C103306328ACB85C00E6EE2F /* bmi_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = C103306228ACB85C00E6EE2F /* bmi_woman.png */; };
+		C103306528ACC11D00E6EE2F /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = C103306428ACC11D00E6EE2F /* calculator.png */; };
 		C17EE42728AB80600057CBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EE42628AB80600057CBF5 /* AppDelegate.swift */; };
 		C17EE42928AB80600057CBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EE42828AB80600057CBF5 /* SceneDelegate.swift */; };
 		C17EE42B28AB80600057CBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EE42A28AB80600057CBF5 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		C103306228ACB85C00E6EE2F /* bmi_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmi_woman.png; sourceTree = "<group>"; };
+		C103306428ACC11D00E6EE2F /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
 		C17EE42328AB80600057CBF5 /* bmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17EE42628AB80600057CBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C17EE42828AB80600057CBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				C17EE43A28AB897F0057CBF5 /* bmiImage.jpeg */,
 				C17EE43428AB80610057CBF5 /* Info.plist */,
 				C103306228ACB85C00E6EE2F /* bmi_woman.png */,
+				C103306428ACC11D00E6EE2F /* calculator.png */,
 			);
 			path = bmi;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17EE43B28AB897F0057CBF5 /* bmiImage.jpeg in Resources */,
+				C103306528ACC11D00E6EE2F /* calculator.png in Resources */,
 				C17EE43328AB80610057CBF5 /* LaunchScreen.storyboard in Resources */,
 				C17EE43028AB80610057CBF5 /* Assets.xcassets in Resources */,
 				C103306328ACB85C00E6EE2F /* bmi_woman.png in Resources */,
