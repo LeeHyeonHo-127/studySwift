@@ -15,10 +15,10 @@ class VideoViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func playVideo(_ sender: UIButton) {
+    @IBAction func playVideo(_ sender: UIButton) { //영상 재생
         let file: String? = Bundle.main.path(forResource: "whatIsBMI", ofType: "mp4")
         let url = NSURL(fileURLWithPath: file!)
-        let playerController = AVPlayerViewController()
+        let playerController = AVPlayerViewController() //AVPlayerViewController 객체 생성
         let player = AVPlayer(url: url as URL)
         playerController.player = player
         self.present(playerController, animated: true)

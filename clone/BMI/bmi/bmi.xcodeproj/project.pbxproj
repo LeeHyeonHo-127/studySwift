@@ -12,6 +12,7 @@
 		C17378E728AE1E45003E1E55 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17378E628AE1E45003E1E55 /* VideoViewController.swift */; };
 		C17378E928AE20E0003E1E55 /* whatIsBMI.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C17378E828AE20E0003E1E55 /* whatIsBMI.mp4 */; };
 		C17378F328AE2506003E1E55 /* youtube2.png in Resources */ = {isa = PBXBuildFile; fileRef = C17378F228AE2506003E1E55 /* youtube2.png */; };
+		C17378F528AE4BE6003E1E55 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17378F428AE4BE6003E1E55 /* WebViewController.swift */; };
 		C17EE42728AB80600057CBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EE42628AB80600057CBF5 /* AppDelegate.swift */; };
 		C17EE42928AB80600057CBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EE42828AB80600057CBF5 /* SceneDelegate.swift */; };
 		C17EE42B28AB80600057CBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EE42A28AB80600057CBF5 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		C17378E628AE1E45003E1E55 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		C17378E828AE20E0003E1E55 /* whatIsBMI.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = whatIsBMI.mp4; sourceTree = "<group>"; };
 		C17378F228AE2506003E1E55 /* youtube2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube2.png; sourceTree = "<group>"; };
+		C17378F428AE4BE6003E1E55 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		C17EE42328AB80600057CBF5 /* bmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17EE42628AB80600057CBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C17EE42828AB80600057CBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,9 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				C17EE42628AB80600057CBF5 /* AppDelegate.swift */,
-				C17378E628AE1E45003E1E55 /* VideoViewController.swift */,
 				C17EE42828AB80600057CBF5 /* SceneDelegate.swift */,
 				C17EE42A28AB80600057CBF5 /* ViewController.swift */,
+				C17378E628AE1E45003E1E55 /* VideoViewController.swift */,
+				C17378F428AE4BE6003E1E55 /* WebViewController.swift */,
 				C17EE42C28AB80600057CBF5 /* Main.storyboard */,
 				C17EE42F28AB80610057CBF5 /* Assets.xcassets */,
 				C17EE43128AB80610057CBF5 /* LaunchScreen.storyboard */,
@@ -160,6 +163,7 @@
 				C17EE42B28AB80600057CBF5 /* ViewController.swift in Sources */,
 				C17EE42728AB80600057CBF5 /* AppDelegate.swift in Sources */,
 				C17378E728AE1E45003E1E55 /* VideoViewController.swift in Sources */,
+				C17378F528AE4BE6003E1E55 /* WebViewController.swift in Sources */,
 				C17EE42928AB80600057CBF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
