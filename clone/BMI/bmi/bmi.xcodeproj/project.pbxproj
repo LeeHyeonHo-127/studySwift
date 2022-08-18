@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C103306328ACB85C00E6EE2F /* bmi_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = C103306228ACB85C00E6EE2F /* bmi_woman.png */; };
-		C103306528ACC11D00E6EE2F /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = C103306428ACC11D00E6EE2F /* calculator.png */; };
+		C17378E328AE1394003E1E55 /* manBMIImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C17378E228AE1394003E1E55 /* manBMIImage.png */; };
+		C17378E528AE1399003E1E55 /* womanBMIImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C17378E428AE1398003E1E55 /* womanBMIImage.png */; };
+		C17378E728AE1E45003E1E55 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17378E628AE1E45003E1E55 /* VideoViewController.swift */; };
+		C17378E928AE20E0003E1E55 /* whatIsBMI.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C17378E828AE20E0003E1E55 /* whatIsBMI.mp4 */; };
+		C17378F328AE2506003E1E55 /* youtube2.png in Resources */ = {isa = PBXBuildFile; fileRef = C17378F228AE2506003E1E55 /* youtube2.png */; };
 		C17EE42728AB80600057CBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EE42628AB80600057CBF5 /* AppDelegate.swift */; };
 		C17EE42928AB80600057CBF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EE42828AB80600057CBF5 /* SceneDelegate.swift */; };
 		C17EE42B28AB80600057CBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17EE42A28AB80600057CBF5 /* ViewController.swift */; };
 		C17EE42E28AB80600057CBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17EE42C28AB80600057CBF5 /* Main.storyboard */; };
 		C17EE43028AB80610057CBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17EE42F28AB80610057CBF5 /* Assets.xcassets */; };
 		C17EE43328AB80610057CBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17EE43128AB80610057CBF5 /* LaunchScreen.storyboard */; };
-		C17EE43B28AB897F0057CBF5 /* bmiImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C17EE43A28AB897F0057CBF5 /* bmiImage.jpeg */; };
-		C17EE43D28AB8A190057CBF5 /* bmiImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = C17EE43C28AB8A190057CBF5 /* bmiImage2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C103306228ACB85C00E6EE2F /* bmi_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmi_woman.png; sourceTree = "<group>"; };
-		C103306428ACC11D00E6EE2F /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
+		C17378E228AE1394003E1E55 /* manBMIImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manBMIImage.png; sourceTree = "<group>"; };
+		C17378E428AE1398003E1E55 /* womanBMIImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = womanBMIImage.png; sourceTree = "<group>"; };
+		C17378E628AE1E45003E1E55 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		C17378E828AE20E0003E1E55 /* whatIsBMI.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = whatIsBMI.mp4; sourceTree = "<group>"; };
+		C17378F228AE2506003E1E55 /* youtube2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube2.png; sourceTree = "<group>"; };
 		C17EE42328AB80600057CBF5 /* bmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17EE42628AB80600057CBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C17EE42828AB80600057CBF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +34,6 @@
 		C17EE42F28AB80610057CBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C17EE43228AB80610057CBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C17EE43428AB80610057CBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C17EE43A28AB897F0057CBF5 /* bmiImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmiImage.jpeg; sourceTree = "<group>"; };
-		C17EE43C28AB8A190057CBF5 /* bmiImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmiImage2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,16 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				C17EE42628AB80600057CBF5 /* AppDelegate.swift */,
+				C17378E628AE1E45003E1E55 /* VideoViewController.swift */,
 				C17EE42828AB80600057CBF5 /* SceneDelegate.swift */,
 				C17EE42A28AB80600057CBF5 /* ViewController.swift */,
 				C17EE42C28AB80600057CBF5 /* Main.storyboard */,
 				C17EE42F28AB80610057CBF5 /* Assets.xcassets */,
 				C17EE43128AB80610057CBF5 /* LaunchScreen.storyboard */,
-				C17EE43C28AB8A190057CBF5 /* bmiImage2.png */,
-				C17EE43A28AB897F0057CBF5 /* bmiImage.jpeg */,
 				C17EE43428AB80610057CBF5 /* Info.plist */,
-				C103306228ACB85C00E6EE2F /* bmi_woman.png */,
-				C103306428ACC11D00E6EE2F /* calculator.png */,
+				C17378E228AE1394003E1E55 /* manBMIImage.png */,
+				C17378E428AE1398003E1E55 /* womanBMIImage.png */,
+				C17378E828AE20E0003E1E55 /* whatIsBMI.mp4 */,
+				C17378F228AE2506003E1E55 /* youtube2.png */,
 			);
 			path = bmi;
 			sourceTree = "<group>";
@@ -137,13 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17EE43B28AB897F0057CBF5 /* bmiImage.jpeg in Resources */,
-				C103306528ACC11D00E6EE2F /* calculator.png in Resources */,
+				C17378E328AE1394003E1E55 /* manBMIImage.png in Resources */,
 				C17EE43328AB80610057CBF5 /* LaunchScreen.storyboard in Resources */,
+				C17378E528AE1399003E1E55 /* womanBMIImage.png in Resources */,
 				C17EE43028AB80610057CBF5 /* Assets.xcassets in Resources */,
-				C103306328ACB85C00E6EE2F /* bmi_woman.png in Resources */,
+				C17378E928AE20E0003E1E55 /* whatIsBMI.mp4 in Resources */,
 				C17EE42E28AB80600057CBF5 /* Main.storyboard in Resources */,
-				C17EE43D28AB8A190057CBF5 /* bmiImage2.png in Resources */,
+				C17378F328AE2506003E1E55 /* youtube2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +159,7 @@
 			files = (
 				C17EE42B28AB80600057CBF5 /* ViewController.swift in Sources */,
 				C17EE42728AB80600057CBF5 /* AppDelegate.swift in Sources */,
+				C17378E728AE1E45003E1E55 /* VideoViewController.swift in Sources */,
 				C17EE42928AB80600057CBF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
