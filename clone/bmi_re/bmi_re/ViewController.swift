@@ -8,15 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK: 변수 설정
     @IBOutlet var bmiImage: UIImageView!
     @IBOutlet var lblResult: UILabel!
     @IBOutlet var txtWeight: UITextField!
     @IBOutlet var txtHeight: UITextField!
+    
+    //앱에 처음 들어오면 실행시키는 함수
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    
+    //성별 선택 segmentControl
     @IBAction func sexSegment(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 1 {
             bmiImage.image = UIImage(named: "womanBMIImage")
