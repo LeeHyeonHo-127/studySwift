@@ -8,13 +8,28 @@
 import UIKit
 import AVKit
 
+
+//MARK: - Class - VideoViewController
+///**Class VideoViewController**
+///- note: VideoViewController 클래스
+///- authors: 이현호
 class VideoViewController: UIViewController {
 
+    ///**화면에 들어오면 처음 실행시키는 함수**
+    ///- note:
+    ///- parameters:
+    ///- returns:
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    //MARK: 메서드 설정
+    ///**지정된 비디오를 재생시켜주는(영상 화면으로 이동하는) 함수**
+    ///- note:
+    ///- parameters: UIButton
+    ///- returns:
     @IBAction func videoPlay(_ sender: UIButton) {
         let file: String? = Bundle.main.path(forResource: "whatIsBMI", ofType: "mp4")
         let url = NSURL(fileURLWithPath: file!)
