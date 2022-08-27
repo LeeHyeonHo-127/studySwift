@@ -11,7 +11,7 @@ import UIKit
 ///**Class TodoListViewController**
 ///- note: UIViewController 클래스
 ///- authors: 이현호
-class ViewController: UIViewController {
+class ViewController: UIViewController {//ViewController
     
     //MARK: 변수 설정
     @IBOutlet var bmiImage: UIImageView!
