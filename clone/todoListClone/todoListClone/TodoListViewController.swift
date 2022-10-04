@@ -7,7 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TodoListViewController: UIViewController {
+    
+    @IBOutlet var collectionView: UICollectionView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

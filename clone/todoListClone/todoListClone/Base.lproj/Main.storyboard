@@ -29,7 +29,7 @@
         <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="todoListClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TodoListViewController" customModule="todoListClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,33 +67,27 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aV-qF-yUR" userLabel="Delete Button">
-                                                    <rect key="frame" x="348" y="54" width="35" height="35"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="35" id="13g-8d-Ses"/>
-                                                        <constraint firstAttribute="height" constant="35" id="pcU-tZ-4o1"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="316" y="54" width="67" height="31"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                 </button>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zw4-0q-VnO" userLabel="Strike Through View">
                                                     <rect key="frame" x="197.5" y="63.5" width="22" height="1"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="1" id="RMb-gt-prt"/>
-                                                        <constraint firstAttribute="width" constant="22" id="kB5-ub-18Y" userLabel="Strike Through Width"/>
-                                                    </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="top" secondItem="0aV-qF-yUR" secondAttribute="top" id="8Jd-lz-KdS"/>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="centerY" secondItem="k6c-sB-2yc" secondAttribute="centerY" id="DJW-et-ue3"/>
-                                                <constraint firstItem="k6c-sB-2yc" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="125.5" id="Eaw-BG-JmY" userLabel="Check Button.leading = leading + 20"/>
-                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="centerX" secondItem="hq1-2i-xDu" secondAttribute="centerX" id="Uqc-hm-Knd"/>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="66" id="bYk-4V-gtO"/>
-                                                <constraint firstAttribute="trailing" secondItem="0aV-qF-yUR" secondAttribute="trailing" constant="34" id="hzV-EJ-uFD"/>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="centerY" secondItem="hq1-2i-xDu" secondAttribute="centerY" id="soI-Vi-vEu"/>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="top" secondItem="hq1-2i-xDu" secondAttribute="top" constant="54" id="vLD-zM-v1V"/>
-                                                <constraint firstItem="k6c-sB-2yc" firstAttribute="centerY" secondItem="Zw4-0q-VnO" secondAttribute="centerY" id="yeE-eT-eW2" userLabel="Check Button.centerY = centerY"/>
+                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="top" secondItem="hq1-2i-xDu" secondAttribute="top" constant="63.5" id="3VZ-JJ-Hdb"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="66" id="5rN-tm-g8p" userLabel="Descripting Label.leading = Check Button.trailing + 10"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="top" secondItem="0aV-qF-yUR" secondAttribute="top" id="EOr-eY-F8i"/>
+                                                <constraint firstItem="k6c-sB-2yc" firstAttribute="centerY" secondItem="Zw4-0q-VnO" secondAttribute="centerY" id="GsG-BH-Uvh" userLabel="Check Button.centerY = centerY"/>
+                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="centerX" secondItem="hq1-2i-xDu" secondAttribute="centerX" id="Y2a-iI-SBh" userLabel="Strike Through View.centerY = centerY"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="top" secondItem="hq1-2i-xDu" secondAttribute="top" constant="54" id="aMl-B1-CZa"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="centerY" secondItem="k6c-sB-2yc" secondAttribute="centerY" id="c6n-4c-Au4"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="centerY" secondItem="hq1-2i-xDu" secondAttribute="centerY" id="hed-O9-ZOL"/>
+                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="197.5" id="l2p-PA-Unp" userLabel="Strike Through View.leading = Check Button.trailing + 10"/>
+                                                <constraint firstItem="k6c-sB-2yc" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="125.5" id="th8-60-XHd" userLabel="Check Button.leading = leading + 20"/>
+                                                <constraint firstAttribute="trailing" secondItem="0aV-qF-yUR" secondAttribute="trailing" constant="34" id="xmM-hq-HHc" userLabel="trailing = Delete Button.trailing + 20"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="417" height="128"/>
@@ -116,21 +110,66 @@
                                     </constraints>
                                 </collectionReusableView>
                             </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zS2-fc-pKq">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ak-VP-F13" userLabel="Is Today Button">
+                                        <rect key="frame" x="102.5" y="114.5" width="45" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="FCX-ET-s14"/>
+                                            <constraint firstAttribute="width" constant="45" id="Fhj-Ew-0xj"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Fg-cf-FYe" userLabel="Input Text Field">
+                                        <rect key="frame" x="71" y="47" width="97" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n58-mz-LJL" userLabel="Add Button">
+                                        <rect key="frame" x="102.5" y="46.5" width="35" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="2pu-18-5X5"/>
+                                            <constraint firstAttribute="height" constant="35" id="CrP-WV-GKf"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerY" secondItem="zS2-fc-pKq" secondAttribute="centerY" id="8hl-ma-IuG"/>
+                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerX" secondItem="n58-mz-LJL" secondAttribute="centerX" id="aVZ-x1-usG"/>
+                                    <constraint firstItem="n58-mz-LJL" firstAttribute="leading" secondItem="5ak-VP-F13" secondAttribute="leading" id="eAy-gR-5qZ"/>
+                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerX" secondItem="zS2-fc-pKq" secondAttribute="centerX" id="eJU-OH-cmN"/>
+                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="leading" secondItem="zS2-fc-pKq" secondAttribute="leading" constant="71" id="rX7-eY-RU9" userLabel="Input Text Field.leading = leading + 15"/>
+                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerY" secondItem="n58-mz-LJL" secondAttribute="centerY" id="wGs-9b-VRM"/>
+                                    <constraint firstItem="5ak-VP-F13" firstAttribute="top" secondItem="5Fg-cf-FYe" secondAttribute="bottom" constant="33.5" id="wda-Ct-pde"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="zS2-fc-pKq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="19c-Kp-JFm"/>
                             <constraint firstAttribute="bottomMargin" secondItem="GIs-lp-mdj" secondAttribute="bottom" constant="-11" id="6Bf-Vp-Gsk"/>
+                            <constraint firstItem="zS2-fc-pKq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9lf-6v-ozn"/>
+                            <constraint firstItem="zS2-fc-pKq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mj5-hH-oBN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GIs-lp-mdj" secondAttribute="trailing" constant="-25" id="e8l-R7-LxH"/>
                             <constraint firstItem="GIs-lp-mdj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ef8-1N-QXg"/>
                             <constraint firstItem="GIs-lp-mdj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="hgh-9E-WU1"/>
+                            <constraint firstItem="zS2-fc-pKq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="nHA-Rr-leQ"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="vNw-4P-02B" userLabel="Tasks"/>
+                    <connections>
+                        <outlet property="collectionView" destination="GIs-lp-mdj" id="RIT-vc-fwu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653.62318840579712" y="-743.30357142857144"/>
+            <point key="canvasLocation" x="880" y="-743"/>
         </scene>
     </scenes>
     <resources>
