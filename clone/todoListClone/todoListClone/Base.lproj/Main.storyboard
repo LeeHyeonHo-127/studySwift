@@ -54,20 +54,16 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6c-sB-2yc" userLabel="Check Button">
                                                     <rect key="frame" x="125.5" y="46.5" width="35" height="35"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="35" id="dgk-zz-rWg"/>
-                                                        <constraint firstAttribute="height" constant="35" id="exY-Nr-g3l"/>
+                                                        <constraint firstAttribute="width" constant="35" id="5aB-Sz-Xzl"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title=""/>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Weekly Ios Meeting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzS-r1-LUt" userLabel="Descripting Label">
-                                                    <rect key="frame" x="66" y="54" width="149" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aV-qF-yUR" userLabel="Delete Button">
-                                                    <rect key="frame" x="316" y="54" width="67" height="31"/>
+                                                    <rect key="frame" x="348" y="54" width="35" height="35"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="35" id="3pZ-C4-6Cc"/>
+                                                    </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                 </button>
@@ -75,19 +71,27 @@
                                                     <rect key="frame" x="197.5" y="63.5" width="22" height="1"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Weekly Ios Meeting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzS-r1-LUt" userLabel="Descripting Label">
+                                                    <rect key="frame" x="37" y="54" width="149" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="top" secondItem="hq1-2i-xDu" secondAttribute="top" constant="63.5" id="3VZ-JJ-Hdb"/>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="66" id="5rN-tm-g8p" userLabel="Descripting Label.leading = Check Button.trailing + 10"/>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="top" secondItem="0aV-qF-yUR" secondAttribute="top" id="EOr-eY-F8i"/>
-                                                <constraint firstItem="k6c-sB-2yc" firstAttribute="centerY" secondItem="Zw4-0q-VnO" secondAttribute="centerY" id="GsG-BH-Uvh" userLabel="Check Button.centerY = centerY"/>
-                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="centerX" secondItem="hq1-2i-xDu" secondAttribute="centerX" id="Y2a-iI-SBh" userLabel="Strike Through View.centerY = centerY"/>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="top" secondItem="hq1-2i-xDu" secondAttribute="top" constant="54" id="aMl-B1-CZa"/>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="centerY" secondItem="k6c-sB-2yc" secondAttribute="centerY" id="c6n-4c-Au4"/>
-                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="centerY" secondItem="hq1-2i-xDu" secondAttribute="centerY" id="hed-O9-ZOL"/>
-                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="197.5" id="l2p-PA-Unp" userLabel="Strike Through View.leading = Check Button.trailing + 10"/>
-                                                <constraint firstItem="k6c-sB-2yc" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="125.5" id="th8-60-XHd" userLabel="Check Button.leading = leading + 20"/>
-                                                <constraint firstAttribute="trailing" secondItem="0aV-qF-yUR" secondAttribute="trailing" constant="34" id="xmM-hq-HHc" userLabel="trailing = Delete Button.trailing + 20"/>
+                                                <constraint firstItem="k6c-sB-2yc" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="125.5" id="G4g-IP-5BH"/>
+                                                <constraint firstItem="k6c-sB-2yc" firstAttribute="centerY" secondItem="Zw4-0q-VnO" secondAttribute="centerY" id="GF0-gX-Yk5"/>
+                                                <constraint firstAttribute="trailing" secondItem="0aV-qF-yUR" secondAttribute="trailing" constant="34" id="IK5-Q9-SaJ"/>
+                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="197.5" id="Knx-MK-P7A"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="centerY" secondItem="hq1-2i-xDu" secondAttribute="centerY" id="OvN-ZE-3TN"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="leading" secondItem="hq1-2i-xDu" secondAttribute="leading" constant="66" id="QvZ-iD-DEq"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="top" secondItem="0aV-qF-yUR" secondAttribute="top" id="eSd-ui-umW"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="top" secondItem="hq1-2i-xDu" secondAttribute="top" constant="54" id="gln-s0-SB3"/>
+                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="centerX" secondItem="hq1-2i-xDu" secondAttribute="centerX" id="hQl-Ic-XcR"/>
+                                                <constraint firstItem="Zw4-0q-VnO" firstAttribute="top" secondItem="hq1-2i-xDu" secondAttribute="top" constant="63.5" id="jxF-8H-NCp"/>
+                                                <constraint firstAttribute="bottom" secondItem="0aV-qF-yUR" secondAttribute="bottom" constant="39" id="qDh-jC-wLo"/>
+                                                <constraint firstItem="rzS-r1-LUt" firstAttribute="centerY" secondItem="k6c-sB-2yc" secondAttribute="centerY" id="sEW-bW-usH"/>
+                                                <constraint firstItem="k6c-sB-2yc" firstAttribute="top" secondItem="hq1-2i-xDu" secondAttribute="top" constant="46.5" id="veW-NH-46t"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="417" height="128"/>
@@ -105,8 +109,8 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="g1i-sR-z1k" firstAttribute="centerY" secondItem="0sh-WQ-z8y" secondAttribute="centerY" id="KWt-mc-eUh"/>
-                                        <constraint firstItem="g1i-sR-z1k" firstAttribute="leading" secondItem="0sh-WQ-z8y" secondAttribute="leadingMargin" constant="12" id="y5k-2D-XhL" userLabel="Section Title Label.leading = leadingMargin + 20"/>
+                                        <constraint firstItem="g1i-sR-z1k" firstAttribute="leading" secondItem="0sh-WQ-z8y" secondAttribute="leadingMargin" constant="12" id="Uk4-Uj-W5e"/>
+                                        <constraint firstItem="g1i-sR-z1k" firstAttribute="centerY" secondItem="0sh-WQ-z8y" secondAttribute="centerY" id="xIH-Ob-6X3"/>
                                     </constraints>
                                 </collectionReusableView>
                             </collectionView>
@@ -115,10 +119,6 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ak-VP-F13" userLabel="Is Today Button">
                                         <rect key="frame" x="102.5" y="114.5" width="45" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="FCX-ET-s14"/>
-                                            <constraint firstAttribute="width" constant="45" id="Fhj-Ew-0xj"/>
-                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                     </button>
@@ -130,8 +130,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n58-mz-LJL" userLabel="Add Button">
                                         <rect key="frame" x="102.5" y="46.5" width="35" height="35"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="35" id="2pu-18-5X5"/>
-                                            <constraint firstAttribute="height" constant="35" id="CrP-WV-GKf"/>
+                                            <constraint firstAttribute="width" constant="35" id="52Y-BZ-MWM"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
@@ -139,27 +138,30 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerY" secondItem="zS2-fc-pKq" secondAttribute="centerY" id="8hl-ma-IuG"/>
-                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerX" secondItem="n58-mz-LJL" secondAttribute="centerX" id="aVZ-x1-usG"/>
-                                    <constraint firstItem="n58-mz-LJL" firstAttribute="leading" secondItem="5ak-VP-F13" secondAttribute="leading" id="eAy-gR-5qZ"/>
-                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerX" secondItem="zS2-fc-pKq" secondAttribute="centerX" id="eJU-OH-cmN"/>
-                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="leading" secondItem="zS2-fc-pKq" secondAttribute="leading" constant="71" id="rX7-eY-RU9" userLabel="Input Text Field.leading = leading + 15"/>
-                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerY" secondItem="n58-mz-LJL" secondAttribute="centerY" id="wGs-9b-VRM"/>
-                                    <constraint firstItem="5ak-VP-F13" firstAttribute="top" secondItem="5Fg-cf-FYe" secondAttribute="bottom" constant="33.5" id="wda-Ct-pde"/>
+                                    <constraint firstAttribute="trailing" secondItem="5ak-VP-F13" secondAttribute="trailing" constant="92.5" id="4OT-GY-Q8s"/>
+                                    <constraint firstItem="5ak-VP-F13" firstAttribute="top" secondItem="n58-mz-LJL" secondAttribute="bottom" constant="33" id="8C6-TD-N2R"/>
+                                    <constraint firstItem="n58-mz-LJL" firstAttribute="centerX" secondItem="5Fg-cf-FYe" secondAttribute="centerX" id="Ds9-5n-OYz"/>
+                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="leading" secondItem="zS2-fc-pKq" secondAttribute="leading" constant="71" id="SN7-Or-sbu"/>
+                                    <constraint firstItem="n58-mz-LJL" firstAttribute="leading" secondItem="5ak-VP-F13" secondAttribute="leading" id="VLp-tV-DQP"/>
+                                    <constraint firstItem="n58-mz-LJL" firstAttribute="centerX" secondItem="zS2-fc-pKq" secondAttribute="centerX" id="cIx-AN-Vr8"/>
+                                    <constraint firstAttribute="bottom" secondItem="5ak-VP-F13" secondAttribute="bottom" constant="-21.5" id="jEI-gI-vCP"/>
+                                    <constraint firstItem="n58-mz-LJL" firstAttribute="top" secondItem="zS2-fc-pKq" secondAttribute="top" constant="46.5" id="lJY-et-jPm"/>
+                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerY" secondItem="zS2-fc-pKq" secondAttribute="centerY" id="uxB-4Q-nIm"/>
+                                    <constraint firstItem="5Fg-cf-FYe" firstAttribute="centerY" secondItem="n58-mz-LJL" secondAttribute="centerY" id="zrS-sO-P4I"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zS2-fc-pKq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="19c-Kp-JFm"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="GIs-lp-mdj" secondAttribute="bottom" constant="-11" id="6Bf-Vp-Gsk"/>
-                            <constraint firstItem="zS2-fc-pKq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9lf-6v-ozn"/>
-                            <constraint firstItem="zS2-fc-pKq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mj5-hH-oBN"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="GIs-lp-mdj" secondAttribute="trailing" constant="-25" id="e8l-R7-LxH"/>
-                            <constraint firstItem="GIs-lp-mdj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ef8-1N-QXg"/>
-                            <constraint firstItem="GIs-lp-mdj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="hgh-9E-WU1"/>
-                            <constraint firstItem="zS2-fc-pKq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="nHA-Rr-leQ"/>
+                            <constraint firstItem="zS2-fc-pKq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BYs-Y1-c0y"/>
+                            <constraint firstItem="GIs-lp-mdj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="Fkt-AL-4KN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GIs-lp-mdj" secondAttribute="trailing" constant="-25" id="Nq5-vV-vQG"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="GIs-lp-mdj" secondAttribute="bottom" constant="-11" id="Tuy-qU-8z7"/>
+                            <constraint firstItem="zS2-fc-pKq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="YuC-Kh-gt2"/>
+                            <constraint firstItem="zS2-fc-pKq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZPY-dd-ohD"/>
+                            <constraint firstItem="GIs-lp-mdj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bFf-oQ-cbc"/>
+                            <constraint firstItem="zS2-fc-pKq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="wOb-L4-Rrf"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="vNw-4P-02B" userLabel="Tasks"/>
